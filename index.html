@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/96538abe99.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Meu Currículo</title>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-warning d-flex justify-content-center"
+      >
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#nav-principal"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#quemsou" class="nav-link">Quem sou Eu</a>
+              </li>
+              <li class="nav-item">
+                <a href="#formacao" class="nav-link">Formação</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portifolio" class="nav-link">Projetos que ja Fiz</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contato" class="nav-link">Entre em Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="bg-warning">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">SAMUEL CRUZ</h1>
+              <p>Me conheça atraves do meu currículo</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/samu.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quemsou" class="caixa mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Quem Sou Eu</h2>
+              <p>
+                Meu nome é Samuel Cruz, tenho 21 anos e gosto muito de tocar flauta tranversal, também gosto de sair com os amigos no final de semana, vou para a igreja aos domingos e faço estágio de desenvolvimento de sistemas em uma agência de publicidade.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/samu-2.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/codigos.jfif" class="img-fluid img-cod" />
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Minha Formação</h2>
+              <p>
+                Eu estou cursando Análise e desenvolvimento de Sistemas na Uninter, e também faço alguns cursos de desenvolvimento front-end Web por fora em plataformas como : Udemy, Hotmart e etc.... <br>
+                Já fiz curso de inglês por dois anos e posso dizer que sou nível básico/intermediario.
+              </p>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portifolio" class="caixa">
+      <div class="container">
+        <h2>Portifólio</h2>
+        <div class="row">
+            
+          <div class="col-md-4">
+            <img src="img/formulário.png" class="img-fluid img-port" />
+            <h4>Projeto 1</h4>
+            <p>
+              Formulário de contato feito com HTML e CSS
+            </p>
+            <a href="https://lucent-cendol-3c7eb3.netlify.app/" target="_blank">
+              <button class="btn btn-primary"> Ver Mais</button>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="img/Anna-bele.png" class="img-fluid img-port" />
+            <h4>Projeto 2</h4>
+            <p>
+              Site feito inspirado em Portifólio de modelos
+            </p>
+            <a href="https://grand-kataifi-9d132f.netlify.app/index.html" target="_blank">
+              <button class="btn btn-primary"> Ver Mais</button>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="img/firmino.png" class="img-fluid img-port" />
+            <h4>Projeto 3</h4>
+            <p>
+              Projeto feito baseado na empresa de um amigo
+            </p>
+            <a href="https://jocular-marshmallow-977af2.netlify.app/" target="_blank">
+              <button class="btn btn-primary"> Ver Mais</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="login">
+	
+  <h1 id="contato" class="text-secondary">Entre em Contato</h1>
+  
+  <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                        <label for="sobrenome"><strong>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <br>
+                    <label for="experiencia"><strong>Assunto: </strong></label>
+                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                </div>
+                <button class="botao" type="submit" onsubmit="">Enviar</button>           
+            </form>
+
+</div>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
